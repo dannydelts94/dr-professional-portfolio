@@ -6,7 +6,7 @@
 
   .header a {
     float: left;
-    color: rgb(204, 201, 21);
+    color: #356C7A;
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -18,20 +18,22 @@
   .header a.logo {
     font-size: 25px;
     font-weight: bold;
+    font-family: luminari, fantasy;
   }
 
   .header a:hover {
-    background-color: #c7dedf;
+    background-color: #607576;
     color: rgba(54, 51, 51, 0.639);
   }
 
   .header a.active {
-    background-color: rgb(29, 205, 225);
+    background-color: #4C9CB0;
     color: white;
   }
   
   .header-right {
     float: right;
+    font-family: luminari,fantasy;
   }
 
   @media screen and (max-width: 500px) {
@@ -62,5 +64,6 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #95A8AD;
+    font-family: luminari, fantasy;
   }
