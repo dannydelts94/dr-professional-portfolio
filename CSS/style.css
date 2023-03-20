@@ -86,7 +86,7 @@ html {
 .cards {
   display: flex;
   flex-wrap: wrap;
-  align-items: stretch;
+  align-items: first baseline;
 }
 
 .card {
@@ -110,6 +110,11 @@ html {
   color: black;
   padding: 10px;
   width: 100%;
+}
+h2 {
+  text-align: center;
+  font-family: luminari, fantasy;
+  color: black;
 }
 
 .card:nth-child(1) {
