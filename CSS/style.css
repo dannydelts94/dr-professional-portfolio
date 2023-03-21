@@ -83,6 +83,12 @@ html {
   text-align: center;
 }
 
+h1 {
+  font-family: luminari, fantasy;
+  color: black;
+  text-align: center
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
