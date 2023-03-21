@@ -20,8 +20,5 @@ N/A
 
 MIT
 
-
-
-
-![Screenshot of web page](/images/updated.png"Dan Rescigno's Portfolio")
+![Screenshot of Portfolio](/images/updated.png "Dan Rescigno Portfolio")
 
