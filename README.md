@@ -20,5 +20,8 @@ N/A
 
 MIT
 
+## Deployed Link
+https://dannydelts94.github.io/dr-professional-portfolio/
+
 ![Screenshot of Portfolio](/images/updated.png "Dan Rescigno Portfolio")
 
