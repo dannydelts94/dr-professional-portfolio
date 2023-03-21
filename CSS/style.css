@@ -2,12 +2,14 @@
   box-sizing: border-box;
 }
 
+/* styles the to navbar */
 .header {
   overflow: hidden;
   background-color: #2f4e55;
   padding: 20px 10px;
 }
 
+/* styles the top navbar on left */
 .header a {
   float: left;
   color: #356C7A;
@@ -19,27 +21,32 @@
   border-radius: 4px;
 }
 
+/* styles the text on top left navbar */
 .header a.logo {
   font-size: 25px;
   font-weight: bold;
   font-family: luminari, fantasy;
 }
 
+/* enables hover on the navbar */
 .header a:hover {
   background-color: #607576;
   color: rgba(54, 51, 51, 0.639);
 }
 
+/* when user hovers over nav items background changes */
 .header a.active {
   background-color: #4C9CB0;
   color: white;
 }
 
+/* text and positioning for top right navbar */
 .header-right {
   float: right;
   font-family: luminari, fantasy;
 }
 
+/* formats for smaller screen */
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
@@ -47,17 +54,20 @@
     text-align: left;
   }
 
+  /* styles the header */
   .header-right {
     float: none;
   }
 }
 
+/* sets the background for webpage */
 body,
 html {
   height: 100%;
   background-color: #2f4e55;
 }
 
+/* styles and positions the hero image */
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
   height: 50%;
@@ -67,6 +77,7 @@ html {
   position: relative;
 }
 
+/* styles and positions the hero text */
 .hero-text {
   text-align: center;
   position: absolute;
@@ -77,24 +88,28 @@ html {
   font-family: luminari, fantasy;
 }
 
+/* styles the about me text */
 #about {
   font-family: luminari, fantasy;
   color: black;
   text-align: center;
 }
 
+/* styles the first heading tag */
 h1 {
   font-family: luminari, fantasy;
   color: black;
   text-align: center
 }
 
+/* adds flex alignment to cards */
 .cards {
   display: flex;
   flex-wrap: wrap;
   align-items: first baseline;
 }
 
+/* card sizing and shadow */
 .card {
   width: 450px;
   height: 200 px;
@@ -102,14 +117,17 @@ h1 {
   border: 1px solid #ccc box-shadow:rgba(0, 0, 0, 0.5)
 }
 
+/* image sizing on cards */
 .card img {
   max-width: 100%;
 }
 
+/* styles text under card */
 .card .text {
   padding: 0px 20px 20px;
 }
 
+/* styles the buttons beneath each card */
 .card .text>button {
   background: #95A8AD;
   border: 0;
@@ -118,16 +136,19 @@ h1 {
   width: 100%;
 }
 
+/* styles the second heading */
 h2 {
   text-align: center;
   font-family: luminari, fantasy;
   color: black;
 }
 
+/* makes the first card larger */
 .card:nth-child(1) {
   width: 600px;
 }
 
+/* alignment for social media icons */
 .icons {
 
   display: grid;
@@ -136,11 +157,13 @@ h2 {
   justify-content: center;
 }
 
+/* text above social media icons */
 h3 {
   text-align: center;
   font-family: sans-serif;
 }
 
+/* padding and sizing for social media icons */
 .fa {
   padding: 1px;
   font-size: 30px;
@@ -151,21 +174,25 @@ h3 {
   border-radius: 50%;
 }
 
+/* shading changes when hovering over icon */
 .fa:hover {
   opacity: 0.7;
 
 }
 
+/* color of facebook icon */
 .fa-facebook {
   background: #3B5998;
   color: white;
 }
 
+/* color of linkedin icon */
 .fa-linkedin {
   background: #007bb5;
   color: white;
 }
 
+/* color of instagram icon */
 .fa-instagram {
   background: #125688;
   color: white;
